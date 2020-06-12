@@ -7,8 +7,8 @@ while row_index < src.count do
   while element_index < src[row_index].count do
     if src[row_index][element_index] < smallest_number
       smallest_number = src[row_index][element_index]
-      new_array << smallest_number
     end
+    new_array << smallest_number
     element_index += 1
   end
   row_index +=1
